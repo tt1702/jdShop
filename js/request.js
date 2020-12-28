@@ -1,13 +1,5 @@
 var server="http://192.168.0.250:8888/";
 
-function getRequest(){
-    if(window.XMLHttpRequest){
-        return new XMLHttpRequest();
-    }else{
-        return new ActiveXObject("Microsoft.XMLHTTPs");
-    }
-}
-
 //判断是否登录
 function checkLogin(){
     var r=localStorage.getItem("user");
