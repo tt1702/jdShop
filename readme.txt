@@ -9,4 +9,7 @@ git常用命令：
 查看仓库的状态
 （5）git log
 查看仓库的提交记录
-
+（6）git remote add origin 远程git仓库的地址
+关联本地仓库与远程服务器中的仓库
+（7）git push -u origin 仓库的分支名称
+将本地库推送到远程仓库，下一次推送只需输入 git push
