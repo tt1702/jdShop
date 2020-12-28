@@ -1,0 +1,9 @@
+*{margin: 0; padding: 0;}
+header{font-size: 12px; background-color: #E3E4E5;padding: 10px;color: #999999; display: flex;justify-content: center;}
+header ul{width: 1200px; display: flex;justify-content: space-between;}
+a{text-decoration: none;color:#999;margin-left: 10px;}
+ul{list-style: none;}
+article{display: flex;justify-content: center;padding: 30px;}
+article ul{width: 1200px;display: flex;justify-content:space-between;}
+article input{width: 300px; height: 30px;border:2px solid #999999;}
+article span{background-color:#715A52; color:#fff; padding:5px 20px 8px 20px;}

@@ -1,0 +1,5 @@
+section ul{width: 1200px; margin: auto;display: flex;}
+section ul li img{width: 400px; height: 500px;}
+#name{font-weight: bolder; font-size: 16px;}
+section ul li:nth-child(2) span{display: block;line-height: 2em;}
+#price{color: red; font-size: 40px;}

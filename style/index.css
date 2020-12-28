@@ -1,0 +1,32 @@
+.indexImage{text-align: center;}
+.indexImage ul li{width: 20px; height: 20px; background-color: #999; border-radius: 10px; float: left; position: relative;top: -30px; left: 35%; margin-right: 20px;}
+section{display: flex;justify-content: center; margin-top: 20px;}
+section ul{display: flex;justify-content: center;}
+section ul li:nth-child(1){width: 178px; border: 1px solid #ccc;}
+section ul li:nth-child(2){width: 1022px; border: 1px solid #ccc; border-left: none;}
+section ul li p span{display: block; font-size: 12px;margin:6px 0 0 10px;}
+section ul li p span:nth-of-type(1){color:#E23A3A;font-size: 20px; }
+section ul li p{width: 170px; margin: auto; margin-bottom: 20px;}
+section h3{font-weight: normal; font-size: 16px; padding: 10px;border-bottom: 1px solid #ccc;}
+section h3 span{color: #999; font-size: 12px; position: relative; left: 40px;}
+section ul li:nth-child(2){display: flex; justify-content: space-evenly;flex-wrap: wrap; }
+section ul li:nth-child(2) div{width: 220px; height: 387px;box-sizing:border-box;border: 1px solid #fff; padding: 10px; margin-top: 20px;}
+section ul li:nth-child(2) div:hover{border: 1px solid #ccc; box-shadow: 1px 1px 3px #ccc;}
+section ul li aside{margin: 10px 0;}
+section ul li aside:nth-of-type(1){font:24px tahoma,arial;color:#E5393C; }
+em{font-size: 18px; font-style: normal;}
+section ul li aside:nth-of-type(2){font-size:12px;color: #000;}
+section ul li aside span{font-size:12px;box-sizing: border-box;padding: 2px 4px;border-radius: 2px;}
+.self{background-color:#E23A3A;color: #fff;}
+.safe{border:1px solid #4D88FF;color: #4D88FF;}
+.safe2{border:1px solid #E23A3A;color: #E23A3A;}
+.btn{padding: 6px 14px;box-sizing: border-box;border: 1px solid #ccc; color: #E23A3A;margin-top: 10px;}
+.btn:hover{border: 1px solid #E23A3A;}
+section ul li:nth-child(2) dl{width: 100%; display: flex; margin: 20px;}
+ul li dl dt{border: 1px solid #ccc;padding: 4px 10px;margin-right: 10px;}
+ul li dl dd{border: 1px solid #fff;padding: 4px 10px;margin-right: 10px;}
+.indexImage dl{display: flex;justify-content: center;}
+.indexImage dl dt:nth-of-type(2n+1){width: 200px; border: 1px solid #ccc;}
+#ad p span:nth-of-type(2){height: 14px;overflow: hidden;}
+#book img{width: 200px; height: 200px;}
+#book aside:nth-of-type(2){height: 34px;overflow: hidden;}
